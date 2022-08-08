@@ -7,10 +7,10 @@ import IconRead from "../IconRead/IconRead";
 
 interface MessageProps {
     id?: string,
-    user: Object;
+    user: any;
     text?: string;
     date?: number;
-    attachments?: Array<Object>;
+    attachments?: any[];
     self?: boolean;
     isRead?: boolean;
     typing?: boolean;

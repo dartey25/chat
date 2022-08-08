@@ -1,10 +1,13 @@
 export interface DialogsState {
-    items: any[];
+    dialogs: any[];
+    currentDialogId: number | null;
+    loading: boolean;
 }
 
 export enum DialogsActionTypes {
     SET_DIALOGS = "SET_DIALOGS",
-    SET_CURRENT_DIALOG_ID = "SET_CURRENT_DIALOG_ID"
+    SET_CURRENT_DIALOG_ID = "SET_CURRENT_DIALOG_ID",
+    SET_LOADING = "DIALOGS:SET_LOADING"
 }
 
 export interface SetDialogsAction {
@@ -17,4 +20,9 @@ export interface SetCurrentDialogIdAction {
     payload: number;
 }
 
-export type DialogsActions = SetDialogsAction | SetCurrentDialogIdAction;
+export interface SetLoadingAction {
+    type: DialogsActionTypes.SET_LOADING;
+    payload: boolean;
+}
+
+export type DialogsActions = SetDialogsAction | SetCurrentDialogIdAction | SetLoadingAction;

@@ -1,14 +1,10 @@
-import {axios} from "../../core";
-import {useActions} from "../../hooks/useActions";
-import {setDialogs} from "../../store/actions/dialogs";
+//import {axios} from "../../core";
+//import axios from "axios";
+const axios = require('axios');
+const instance = axios.create({
+    baseURL: 'http://localhost:4000'
+});
 
 export default {
-    getAll: () => axios.get("/dialogs"),
-    fetchDialogs: () => {
-        axios.get("/dialogs").then(({data}) => {
-            const {setDialogs} = useActions();
-            setDialogs(data);
-        })
-    }
-
+    getAll: () => instance.get("/dialogs")
 };

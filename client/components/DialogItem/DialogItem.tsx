@@ -2,31 +2,24 @@ import React, {ReactElement} from 'react';
 import styles from './DialogItem.module.scss'
 import Time from "../Time/Time";
 import IconRead from "../IconRead/IconRead";
+import Avatar from "../Avatar/Avatar";
 
 
 interface DialogItemProps {
-    user: Object;
-    message: Object;
-    unread?: number;
+    id: number;
+    user: any;
+    message: any;
+    unread: number;
     self: boolean;
+    onSelect: (id: number) => void;
 }
 
-const getAvatar = (avatar: string): ReactElement => {
-    if (avatar) {
-        return (<img src={`${avatar}`} alt="avatar"/>);
-    } else {
-        //make avatar from first letter of name
-        return (<img src="https://i.pravatar.cc/300" alt="avatar"/>);
-    }
-}
 
-const DialogItem: React.FC<DialogItemProps> = ({user, message, unread, self}) => {
+
+const DialogItem: React.FC<DialogItemProps> = ({id, user, message, unread, self, onSelect}) => {
     return (
-        <div
-            className={user.online ? [styles.dialogs__item, styles.dialogs__item_online].join(' ') : styles.dialogs__item}>
-            <div className={styles.dialogs__item_avatar}>
-                {getAvatar(user.avatar)}
-            </div>
+        <div onClick={onSelect.bind(this, id)} className={user.online ? [styles.dialogs__item, styles.dialogs__item_online].join(' ') : styles.dialogs__item}>
+            <Avatar avatar={user.avatar} online={user.online}/>
             <div className={styles.dialogs__item_info}>
                 <div className={styles.dialogs__item_info_top}>
                     <span className={styles.dialogs__item_info_top__username}>

@@ -1,16 +1,16 @@
-// create a makeStore function
 import {Context, createWrapper, MakeStore} from "next-redux-wrapper";
-import {applyMiddleware, createStore, Store} from "redux";
+import {applyMiddleware, createStore, Store, compose} from "redux";
 import {reducer, RootState} from "./reducers";
 import thunk from "redux-thunk";
 
-// if (typeof window !== "undefined") {
-//     const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
-// }
+let composeEnhancers = compose;
+if (typeof window !== 'undefined') {
+    // @ts-ignore
+    composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
+}
 
 
 const middleware = [thunk];
-const makeStore = (context: Context) => createStore(reducer, applyMiddleware(...middleware));
+const makeStore = (context: Context) => createStore(reducer, composeEnhancers(applyMiddleware(...middleware)));
 
-// export an assembled wrapper
 export const wrapper = createWrapper<Store<RootState>>(makeStore, {debug: true});

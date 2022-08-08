@@ -1,30 +1,42 @@
 import React, { useState } from "react";
 import { Button, Input } from "antd";
+// @ts-ignore
+import { UploadField } from "@navjobs/upload";
 
 import styles from "./ChatInput.module.scss";
 import {SendOutlined, LinkOutlined} from "@ant-design/icons";
 
 const ChatInput: React.FC = () => {
-    const [value, setValue] = useState("");
+    const [message, setMessage] = useState('');
+
+    const sendMessage = () => {
+        console.log(message);
+        setMessage('');
+    }
 
     return (
         <div className={styles.chat_input}>
-            <div className={styles.chat_input__smile_btn}>
-                <Button shape="circle" icon={<LinkOutlined />} />
+            <div className={styles.chat_input__upload_btn}>
+                <UploadField
+                    onFiles={(files: any) => console.log(files)}
+                    containerProps={{
+                        className: "chat-input__actions-upload-btn"
+                    }}
+                    uploadProps={{
+                        accept: "*",
+                        multiple: "multiple"
+                    }}
+                >
+                    <Button shape="circle" icon={<LinkOutlined />} />
+                </UploadField>
             </div>
             <Input
-                onChange={e => setValue(e.target.value)}
+                onChange={e => setMessage(e.target.value)}
                 size="large"
                 placeholder="Введите текст сообщения…"
             />
             <div className={styles.chat_input__actions}>
-                {/*<Button type="link" shape="circle" icon="camera" />*/}
-                {/*{value ? (*/}
-                {/*    <Button type="link" shape="circle" icon="check-circle" />*/}
-                {/*) : (*/}
-                {/*    <Button type="link" shape="circle" icon="audio" />*/}
-                {/*)}*/}
-                <Button type="primary" shape="circle" icon={<SendOutlined />} size="large" />
+                <Button type="primary" onClick={sendMessage} shape="circle" icon={<SendOutlined />} size="large" />
             </div>
         </div>
     );

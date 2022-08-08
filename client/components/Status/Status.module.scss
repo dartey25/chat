@@ -2,23 +2,23 @@
   display: inline-block;
   color: #bfbfbf;
   position: relative;
-  margin-left: -50%;
+  //margin-left: -50%;
 
-  &::before {
-    display: block;
-    position: absolute;
-    top: 7px;
-    left: -11px;
-    content: "";
-    width: 6px;
-    height: 6px;
-    border-radius: 30px;
-    background-color: #d3d3d3;
-  }
+  //&::before {
+  //  display: block;
+  //  position: absolute;
+  //  top: 7px;
+  //  left: -11px;
+  //  content: "";
+  //  width: 6px;
+  //  height: 6px;
+  //  border-radius: 30px;
+  //  background-color: #d3d3d3;
+  //}
 
-  &_online {
-    &::before {
-      background-color: #00c980;
-    }
-  }
+  //&_online {
+  //  &::before {
+  //    background-color: #00c980;
+  //  }
+  //}
 }

@@ -1,7 +1,8 @@
 @import 'reset-css';
 @import 'antd/dist/antd.css';
-@import '_variables.scss';
+@import 'variables.scss';
 @import 'chat';
+@import 'iconmoon.css';
 
 
 #root,
@@ -38,11 +39,11 @@ p{
 }
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background-color: #999;
+  background-color: #c1c1c1;
   border-radius: .4rem;
 }
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   cursor: pointer;
-  background: #7e7e7e;
+  background: #afafaf;
 }

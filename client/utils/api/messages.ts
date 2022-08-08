@@ -1,5 +1,9 @@
-import { axios } from "../../core";
+//import { axios } from "../../core";
+const axios = require('axios');
+const instance = axios.create({
+    baseURL: 'http://localhost:4000'
+});
 
 export default {
-    getAllByDialogId: (id: number) => axios.get("/messages?dialog=" + id)
+    getAllByDialogId: (id: number) => instance.get(`/messages?dialog=${id}`)
 };

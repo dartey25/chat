@@ -1,0 +1,48 @@
+[
+  {
+    "id": 1,
+    "user": {
+      "id": 1,
+      "username": "Amanda Bellon",
+      "avatar": "https://i.pravatar.cc/150?img=37",
+      "online": true
+    },
+    "message": {
+      "text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page e",
+      "read": false,
+      "date": 1659615729363
+    },
+    "unread": 3
+  },
+  {
+    "id": 2,
+    "user": {
+      "id": 2,
+      "username": "YellowSnowman",
+      "avatar": "https://i.pravatar.cc/150/?img=52",
+      "online": true
+    },
+    "message": {
+      "text": "You need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.",
+      "read": true,
+      "date": 1659615729363
+    },
+    "unread": 0
+
+  },
+  {
+    "id": 3,
+    "user": {
+      "id": 3,
+      "username": "BenAfleckIsAnOkActor",
+      "avatar": "https://i.pravatar.cc/150?img=70",
+      "online": false
+    },
+    "message": {
+      "text": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form",
+      "read": false,
+      "date": 1659615729363
+    },
+    "unread": 0
+  }
+]

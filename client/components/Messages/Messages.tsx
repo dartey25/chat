@@ -1,186 +1,43 @@
 import React from "react";
-import PropTypes from "prop-types";
-import { Empty } from "antd";
+import {Empty} from "antd";
 
+import styles from "./Messages.module.scss";
 import Message from "../Message/Message";
+import Loader from "../Loader/Loader";
 
 
 interface MessagesProps {
-    messages?: any[];
+    messages: any[];
+    loading: boolean;
+    blockRef: React.RefObject<HTMLDivElement>;
 }
-const Messages: React.FC<MessagesProps> = ({ messages }) => {
-    return messages ? (
-        <div>
-            <Message user={{}} text='Hello guys' date={1659615729363}/>
-            <Message
-                text="Мы тут недавно войска Ариовиста разбили, чуваки хотели закрепиться на галльских землях, лол 🌝"
-                user={{}}
-                date={1659615729363}
-                attachments={[
-                    {
-                        id: 1,
-                        filename: "image.jpg",
-                        url: "https://source.unsplash.com/100x100/?random=1&nature,water"
-                    },
-                    {
-                        id: 2,
-                        filename: "image.jpg",
-                        url: "https://source.unsplash.com/100x100/?random=2&nature,water"
-                    },
-                    {
-                        id: 3,
-                        filename: "image.jpg",
-                        url: "https://source.unsplash.com/100x100/?random=3&nature,water"
-                    }
-                ]}
-            />
-            <Message
-                user={{}}
-                text="Hello, World!"
-                date={1659615729363}
-                self={true}
-                isRead={true}
-            />
 
-            <Message
-                user={{}}
-                date={1659680264624}
-                attachments={[
-                    {
-                        id: 1,
-                        filename: "image.jpg",
-                        url: "https://source.unsplash.com/100x100/?random=1&nature,water"
-                    }
-                ]}
-            />
-
-            <Message
-                user={{}}
-                text="Hello, World2!"
-                date={Date.now()}
-                self={true}
-                isRead={true}
-            />
-            <Message
-                user={{}}
-                typing
-            />
-            <Message user={{}} text='Hello guys' date={1659615729363}/>
-            <Message
-                text="Мы тут недавно войска Ариовиста разбили, чуваки хотели закрепиться на галльских землях, лол 🌝"
-                user={{}}
-                date={1659615729363}
-                attachments={[
-                    {
-                        id: 1,
-                        filename: "image.jpg",
-                        url: "https://source.unsplash.com/100x100/?random=1&nature,water"
-                    },
-                    {
-                        id: 2,
-                        filename: "image.jpg",
-                        url: "https://source.unsplash.com/100x100/?random=2&nature,water"
-                    },
-                    {
-                        id: 3,
-                        filename: "image.jpg",
-                        url: "https://source.unsplash.com/100x100/?random=3&nature,water"
-                    }
-                ]}
-            />
-            <Message
-                user={{}}
-                text="Hello, World!"
-                date={1659615729363}
-                self={true}
-                isRead={true}
-            />
-
-            <Message
-                user={{}}
-                date={1659680264624}
-                attachments={[
-                    {
-                        id: 1,
-                        filename: "image.jpg",
-                        url: "https://source.unsplash.com/100x100/?random=1&nature,water"
-                    }
-                ]}
-            />
-
-            <Message
-                user={{}}
-                text="Hello, World2!"
-                date={Date.now()}
-                self={true}
-                isRead={true}
-            />
-            <Message
-                user={{}}
-                typing
-            />
-            <Message user={{}} text='Hello guys' date={1659615729363}/>
-            <Message
-                text="Мы тут недавно войска Ариовиста разбили, чуваки хотели закрепиться на галльских землях, лол 🌝"
-                user={{}}
-                date={1659615729363}
-                attachments={[
-                    {
-                        id: 1,
-                        filename: "image.jpg",
-                        url: "https://source.unsplash.com/100x100/?random=1&nature,water"
-                    },
-                    {
-                        id: 2,
-                        filename: "image.jpg",
-                        url: "https://source.unsplash.com/100x100/?random=2&nature,water"
-                    },
-                    {
-                        id: 3,
-                        filename: "image.jpg",
-                        url: "https://source.unsplash.com/100x100/?random=3&nature,water"
-                    }
-                ]}
-            />
-            <Message
-                user={{}}
-                text="Hello, World!"
-                date={1659615729363}
-                self={true}
-                isRead={true}
-            />
-
-            <Message
-                user={{}}
-                date={1659680264624}
-                attachments={[
-                    {
-                        id: 1,
-                        filename: "image.jpg",
-                        url: "https://source.unsplash.com/100x100/?random=1&nature,water"
-                    }
-                ]}
-            />
-
-            <Message
-                user={{}}
-                text="Hello, World2!"
-                date={Date.now()}
-                self={true}
-                isRead={true}
-            />
-            <Message
-                user={{}}
-                typing
-            />
-        </div>
-    ) : (
-        <Empty description="Повідомлень ще немає..." />
-    );
-};
-
-Messages.propTypes = {
-    items: PropTypes.array
+const Messages: React.FC<MessagesProps> = ({messages, loading, blockRef}) => {
+    // return (<div ref={blockRef} className={loading ? [styles.messages, styles.messages_loading].join(' ') : styles.messages }>
+    //     {loading ? <Loader/>
+    //     :
+    //     (messages.length > 0 ? messages.map(message =>
+    //                 <Message key={message.id} {...message}/>
+    //             ) :
+    //             <Empty description="Повідомлень ще немає..."/>
+    //     )}
+    // </div>);
+    return( <div
+        ref={blockRef}
+        className={loading ? [styles.messages, styles.messages_loading].join(' ') : styles.messages }
+    >
+        {loading ? (
+            <Loader/>
+        ) : messages && !loading ? (
+            messages.length > 0 ? (
+                messages.map(message => <Message key={message.id} {...message} />)
+            ) : (
+                <Empty description="Повідомлень ще немає.." />
+            )
+        ) : (
+            <Empty description="Оберіть діалог" />
+        )}
+    </div>);
 };
 
 export default Messages;

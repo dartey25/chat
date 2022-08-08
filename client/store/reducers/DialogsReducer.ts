@@ -1,7 +1,9 @@
 import {DialogsActions, DialogsActionTypes, DialogsState} from "../../types/dialogs";
 
 const initialState: DialogsState = {
-    items: [],
+    dialogs: [],
+    currentDialogId: 1,
+    loading: true
 }
 
 
@@ -10,13 +12,19 @@ const dialogsReducer = (state = initialState, {type, payload}: DialogsActions): 
         case DialogsActionTypes.SET_DIALOGS:
             return {
                 ...state,
-                items: payload
+                dialogs: payload,
+                loading: false
             };
         case DialogsActionTypes.SET_CURRENT_DIALOG_ID:
             return {
                 ...state,
                 currentDialogId: payload
             };
+        case DialogsActionTypes.SET_LOADING:
+            return {
+                ...state,
+                loading: payload
+            }
         default:
             return state;
     }

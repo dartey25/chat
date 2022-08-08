@@ -1,6 +1,7 @@
 .chat-wrapper{
   margin-top: 2rem;
   height: 94vh;
+  padding: 0 1rem 2rem 1rem;
 }
 .chat {
   display: flex;
@@ -23,6 +24,7 @@
       margin-bottom: 5px;
       align-items: center;
 
+
       .ant-btn-circle {
         position: relative;
         left: 5px;
@@ -38,12 +40,13 @@
 
     &-dialogs {
       height: calc(100% - 70px);
-      padding: 0 5px;
+      padding: 0 10px;
 
 
       .dialogs {
         height: 100%;
         overflow: auto;
+        padding: 0 10px 0 0;
         //&__item {
         //  padding: 10px 20px;
         //  margin-bottom: 0;
@@ -76,27 +79,31 @@
       padding: 12px;
       border-bottom: 1px solid #f7f7f7;
 
+      &-partner {
+        display: flex;
+        align-items: center;
+      }
+
       .ant-btn-circle {
         i {
           font-size: 22px;
         }
       }
 
-      &-center {
-        text-align: center;
-      }
+      //&-center {
+      //  text-align: center;
+      //}
+
 
       &-username {
         display: block;
         margin-bottom: 5px;
-        margin-left: -50%;
+        //margin-left: -50%;
         font-weight: 500;
       }
     }
 
     &-messages {
-      padding: 20px 20px 0;
-      overflow: auto;
       height: calc(100% - 138px);
     }
   }
