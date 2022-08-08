@@ -1,8 +1,8 @@
-.chat-wrapper{
+.chat-wrapper {
   margin-top: 2rem;
   height: 94vh;
-  padding: 0 1rem 2rem 1rem;
 }
+
 .chat {
   display: flex;
   height: 100%;
@@ -11,16 +11,21 @@
   //margin: 0 auto;
   //box-shadow: 0 0 25px rgba(0, 0, 0, 0.04204);
 
+  &__input{
+    padding: 18px!important;
+    border-radius: 10px;
+  }
+
   &__sidebar {
     width: 30%;
-    border-right: 1px solid #f7f7f7;
+    border-right: 1px solid map-get($grey, main);
 
     &-header {
       display: flex;
       justify-content: space-between;
       padding: 21px;
       height: 58px;
-      border-bottom: 1px solid #f7f7f7;
+      border-bottom: 1px solid map-get($grey, main);
       margin-bottom: 5px;
       align-items: center;
 
@@ -39,14 +44,23 @@
     }
 
     &-dialogs {
-      height: calc(100% - 70px);
+      height: 100%;
       padding: 0 10px;
 
 
       .dialogs {
         height: 100%;
-        overflow: auto;
-        padding: 0 10px 0 0;
+
+        &__search {
+          margin: .7rem 0 .7rem 0;
+        }
+
+        &__list {
+          overflow: auto;
+          padding: 0 10px 0 0;
+          height: calc(100% - 68px);
+        }
+
         //&__item {
         //  padding: 10px 20px;
         //  margin-bottom: 0;
@@ -77,7 +91,7 @@
       justify-content: space-between;
       align-items: center;
       padding: 12px;
-      border-bottom: 1px solid #f7f7f7;
+      border-bottom: 1px solid map-get($grey, main);
 
       &-partner {
         display: flex;
@@ -90,7 +104,13 @@
         }
       }
 
-      //&-center {
+      .anticon{
+        color: map-get($primary, main);
+        font-size: 1.8rem;
+        cursor: pointer;
+      }
+
+        //&-center {
       //  text-align: center;
       //}
 

@@ -130,6 +130,13 @@
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
+"@mdoffice/md-component@^1.6.4":
+  version "1.6.4"
+  resolved "https://npm.pkg.github.com/download/@MDOffice/md-component/1.6.4/4869446118d1b02742f698c7bb46975dead59ef1#4869446118d1b02742f698c7bb46975dead59ef1"
+  integrity sha512-+MeZtlej9hpugxX11jc1t0AkrFRUckgDGmsYHKVUagzd09xH0MUZRECf2lcS/FEbpqDzLUwd430v66cKT2SiZg==
+  dependencies:
+    core-js "^3.23.5"
+
 "@mdoffice/md-ui@^2.4.3":
   version "2.4.3"
   resolved "https://npm.pkg.github.com/download/@mdoffice/md-ui/2.4.3/740a3777a187ee9f4348c7b14351e7f7514ca61fc23940ab8595dbccc202fdf8#00cb3c4136d0b42f617ce74689c798228ca181ea"
@@ -853,6 +860,11 @@ core-js-pure@^3.20.2:
   version "3.24.1"
   resolved "https://registry.yarnpkg.com/core-js-pure/-/core-js-pure-3.24.1.tgz#8839dde5da545521bf282feb7dc6d0b425f39fd3"
   integrity sha512-r1nJk41QLLPyozHUUPmILCEMtMw24NG4oWK6RbsDdjzQgg9ZvrUsPBj1MnG0wXXp1DCDU6j+wUvEmBSrtRbLXg==
+
+core-js@^3.23.5:
+  version "3.24.1"
+  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.24.1.tgz#cf7724d41724154010a6576b7b57d94c5d66e64f"
+  integrity sha512-0QTBSYSUZ6Gq21utGzkfITDylE8jWC9Ne1D2MrhvlsZBI1x39OdDIVbzSqtgMndIy6BlHxBXpMGqzZmnztg2rg==
 
 cross-spawn@^7.0.2:
   version "7.0.3"

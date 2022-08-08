@@ -3,6 +3,7 @@ import styles from './DialogItem.module.scss'
 import Time from "../Time/Time";
 import IconRead from "../IconRead/IconRead";
 import Avatar from "../Avatar/Avatar";
+import {useTypedSelector} from "../../hooks/useTypedSelector";
 
 
 interface DialogItemProps {
@@ -17,8 +18,9 @@ interface DialogItemProps {
 
 
 const DialogItem: React.FC<DialogItemProps> = ({id, user, message, unread, self, onSelect}) => {
+    const {currentDialogId} = useTypedSelector(state => state.dialogs)
     return (
-        <div onClick={onSelect.bind(this, id)} className={user.online ? [styles.dialogs__item, styles.dialogs__item_online].join(' ') : styles.dialogs__item}>
+        <div onClick={onSelect.bind(this, id)} className={id === currentDialogId ? [styles.dialogs__item, styles.dialogs__item_active].join(' ') : styles.dialogs__item}>
             <Avatar avatar={user.avatar} online={user.online}/>
             <div className={styles.dialogs__item_info}>
                 <div className={styles.dialogs__item_info_top}>

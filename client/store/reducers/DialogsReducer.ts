@@ -2,7 +2,7 @@ import {DialogsActions, DialogsActionTypes, DialogsState} from "../../types/dial
 
 const initialState: DialogsState = {
     dialogs: [],
-    currentDialogId: 1,
+    currentDialogId: 777,
     loading: true
 }
 

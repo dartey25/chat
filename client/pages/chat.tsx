@@ -17,14 +17,14 @@ const Chat: React.FC = () => {
             <section className="card content-boxed chat-wrapper">
                 <div className="chat">
                     <div className="chat__sidebar">
-                        <div className="chat__sidebar-header">
-                            <div>
-                                <TeamOutlined />
-                                <span>Список діалогів</span>
-                            </div>
-                            {/*<Button type="link" shape="circle" icon="form" />*/}
-                            <FormOutlined />
-                        </div>
+                        {/*<div className="chat__sidebar-header">*/}
+                        {/*    <div>*/}
+                        {/*        <TeamOutlined />*/}
+                        {/*        <span>Список діалогів</span>*/}
+                        {/*    </div>*/}
+                        {/*    /!*<Button type="link" shape="circle" icon="form" />*!/*/}
+                        {/*    <FormOutlined />*/}
+                        {/*</div>*/}
 
                         <div className="chat__sidebar-dialogs">
                             <Dialogs userId={0}/>
@@ -33,15 +33,19 @@ const Chat: React.FC = () => {
                     <div className="chat__dialog">
                         <div className="chat__dialog-header">
                             <div className="chat__dialog-header-partner">
-                                <Avatar avatar={'https://i.pravatar.cc/150?img=37'} online/>
+                                <Avatar avatar={'https://www.mdoffice.com.ua/images/og_image.jpg'} online/>
                                 <div /*className="chat__dialog-header-info"*/>
-                                    <h6 className="chat__dialog-header-username">Amanda Bellon</h6>
+                                    <h6 className="chat__dialog-header-username">MD Office Support</h6>
                                     <div className="chat__dialog-header-status">
                                         <Status online />
                                     </div>
                                 </div>
                             </div>
-                            <EllipsisOutlined />
+                            <div>
+                                <i className="icon-search4 text-primary mr-3 cursor-pointer" style={{fontSize: '1.1rem'}}></i>
+                                <EllipsisOutlined />
+                            </div>
+
                             {/*<Button type="link" shape="circle" icon="ellipsis" />*/}
                         </div>
                         <div className="chat__dialog-messages">

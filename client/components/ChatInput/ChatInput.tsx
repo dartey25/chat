@@ -27,16 +27,21 @@ const ChatInput: React.FC = () => {
                         multiple: "multiple"
                     }}
                 >
-                    <Button shape="circle" icon={<LinkOutlined />} />
+                    <button type="button" className="btn btn-light btn-icon rounded-pill cursor-pointer">
+                        <i className="icon-link"></i>
+                    </button>
                 </UploadField>
             </div>
-            <Input
+            <input
                 onChange={e => setMessage(e.target.value)}
-                size="large"
-                placeholder="Введите текст сообщения…"
+                placeholder="Повідомлення"
+                type="text"
+                className="form-control chat__input"
             />
             <div className={styles.chat_input__actions}>
-                <Button type="primary" onClick={sendMessage} shape="circle" icon={<SendOutlined />} size="large" />
+                <button type="button" onClick={sendMessage} className="btn btn-primary btn-icon rounded-pill cursor-pointer">
+                    <i className="icon-paperplane" style={{right: 1}}></i>
+                </button>
             </div>
         </div>
     );

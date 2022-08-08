@@ -21,11 +21,11 @@ body {
 }
 
 body {
-  background-color: #e5e5e5!important;
+  background-color: #e5e5e5 !important;
 }
 
-p{
-  margin: 0!important;
+p {
+  margin: 0 !important;
 }
 
 /* width */
@@ -33,17 +33,24 @@ p{
   height: .4rem;
   width: .4rem
 }
+
 /* Track */
 ::-webkit-scrollbar-track {
   background-opacity: 0;
 }
+
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background-color: #c1c1c1;
   border-radius: .4rem;
 }
+
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   cursor: pointer;
   background: #afafaf;
+}
+
+.theme_xbox .pace_activity, .theme_xbox .pace_activity:after, .theme_xbox .pace_activity:before, .theme_xbox_lg .pace_activity, .theme_xbox_lg .pace_activity:after, .theme_xbox_lg .pace_activity:before, .theme_xbox_sm .pace_activity, .theme_xbox_sm .pace_activity:after, .theme_xbox_sm .pace_activity:before {
+  border-top-color: map-get($primary, main) !important;
 }

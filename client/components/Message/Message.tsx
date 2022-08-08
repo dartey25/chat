@@ -29,9 +29,6 @@ const Message: React.FC<MessageProps> = ({text, date, self, attachments, user, i
             <div className={styles.message__content}>
                 <IconRead self={self} isRead={isRead} stylesRead={styles.message__read}
                           stylesDelivered={[styles.message__read, styles.message__readNo].join(' ')}/>
-                {/*<div className={styles.message__avatar}>*/}
-                {/*    <img src={avatar} alt={`Avatar ${user.username}`}/>*/}
-                {/*</div>*/}
                 <div className={styles.message__info}>
                     <div className={styles.message__attachments}>
                         {attachments &&
