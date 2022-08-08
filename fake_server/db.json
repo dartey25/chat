@@ -1,0 +1,587 @@
+{
+  "dialogs": [
+    {
+      "id": 1,
+      "user": {
+        "id": 1,
+        "username": "Amanda Bellon",
+        "avatar": "https://i.pravatar.cc/150?img=37",
+        "online": true
+      },
+      "message": {
+        "text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page e",
+        "read": false,
+        "date": 1659965193757
+      },
+      "unread": 3
+    },
+    {
+      "id": 2,
+      "user": {
+        "id": 2,
+        "username": "YellowSnowman",
+        "avatar": "https://i.pravatar.cc/150/?img=52",
+        "online": true
+      },
+      "message": {
+        "text": "You need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.",
+        "read": true,
+        "date": 1659615729363
+      },
+      "unread": 0
+
+    },
+    {
+      "id": 3,
+      "user": {
+        "id": 3,
+        "username": "BenAfleckIsAnOkActor",
+        "avatar": "https://i.pravatar.cc/150?img=70",
+        "online": false
+      },
+      "message": {
+        "text": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form",
+        "read": false,
+        "date": 1659615729363
+      },
+      "unread": 0
+    },
+    {
+      "id": 1,
+      "user": {
+        "id": 91,
+        "username": "Blaze Assault",
+        "avatar": "https://i.pravatar.cc/150?img=20",
+        "online": true
+      },
+      "message": {
+        "text": "Voluptate anim mollit in duis elit culpa velit nulla.",
+        "read": false,
+        "date": 1464722282119
+      },
+      "unread": 3
+    },
+    {
+      "id": 3,
+      "user": {
+        "id": 41,
+        "username": "DarkCarnage",
+        "avatar": "https://i.pravatar.cc/150?img=36",
+        "online": false
+      },
+      "message": {
+        "text": "Reprehenderit consequat qui ut aute in.",
+        "read": true,
+        "date": 1296947426166
+      },
+      "unread": 2
+    },
+    {
+      "id": 2,
+      "user": {
+        "id": 58,
+        "username": "CrashTV",
+        "avatar": "https://i.pravatar.cc/150?img=50",
+        "online": true
+      },
+      "message": {
+        "text": "Sint dolor ad minim esse anim est.",
+        "read": true,
+        "date": 467830810623
+      },
+      "unread": 3
+    },
+    {
+      "id": 1,
+      "user": {
+        "id": 84,
+        "username": "SteelTitan",
+        "avatar": "https://i.pravatar.cc/150?img=54",
+        "online": true
+      },
+      "message": {
+        "text": "Cillum fugiat irure pariatur eiusmod Lorem sit tempor esse est commodo.",
+        "read": true,
+        "date": 1446684959218
+      },
+      "unread": 3
+    },
+    {
+      "id": 2,
+      "user": {
+        "id": 14,
+        "username": "SteelTitan",
+        "avatar": "https://i.pravatar.cc/150?img=21",
+        "online": true
+      },
+      "message": {
+        "text": "Et ea dolore magna aute ex ipsum.",
+        "read": false,
+        "date": 857528941713
+      },
+      "unread": 2
+    },
+    {
+      "id": 2,
+      "user": {
+        "id": 36,
+        "username": "UltimateBeast",
+        "avatar": "https://i.pravatar.cc/150?img=14",
+        "online": true
+      },
+      "message": {
+        "text": "Mollit ex laborum occaecat occaecat sunt deserunt eiusmod ut nisi dolore dolore elit.",
+        "read": false,
+        "date": 987595028235
+      },
+      "unread": 0
+    },
+    {
+      "id": 1,
+      "user": {
+        "id": 74,
+        "username": "Toxic Headshot",
+        "avatar": "https://i.pravatar.cc/150?img=12",
+        "online": true
+      },
+      "message": {
+        "text": "Aute fugiat consequat commodo fugiat laborum officia.",
+        "read": false,
+        "date": 684337017191
+      },
+      "unread": 0
+    },
+    {
+      "id": 3,
+      "user": {
+        "id": 41,
+        "username": "Frozen Gunner",
+        "avatar": "https://i.pravatar.cc/150?img=21",
+        "online": true
+      },
+      "message": {
+        "text": "Qui laboris aliqua nulla fugiat non qui aliquip fugiat do est.",
+        "read": true,
+        "date": 924750565530
+      },
+      "unread": 3
+    },
+    {
+      "id": 2,
+      "user": {
+        "id": 83,
+        "username": "StealthedDefender",
+        "avatar": "https://i.pravatar.cc/150?img=9",
+        "online": false
+      },
+      "message": {
+        "text": "Nulla nostrud anim et exercitation velit aliqua incididunt consectetur ullamco qui incididunt.",
+        "read": true,
+        "date": 559643415295
+      },
+      "unread": 0
+    },
+    {
+      "id": 1,
+      "user": {
+        "id": 65,
+        "username": "CrashTV",
+        "avatar": "https://i.pravatar.cc/150?img=51",
+        "online": true
+      },
+      "message": {
+        "text": "In Lorem in eiusmod fugiat ad cupidatat voluptate deserunt aute.",
+        "read": false,
+        "date": 472542115262
+      },
+      "unread": 4
+    },
+    {
+      "id": 3,
+      "user": {
+        "id": 59,
+        "username": "DarkCarnage",
+        "avatar": "https://i.pravatar.cc/150?img=49",
+        "online": true
+      },
+      "message": {
+        "text": "Nostrud ipsum reprehenderit veniam dolor cillum ad proident fugiat aliqua fugiat aliquip velit dolore labore.",
+        "read": true,
+        "date": 1122018508117
+      },
+      "unread": 4
+    }
+  ],
+  "messages": [
+    {
+      "id": "62f0efd0748b247177abcb47",
+      "user": {},
+      "text": "Aliqua eu nostrud nisi ullamco quis aute incididunt sunt anim non amet cillum velit ex.",
+      "date": 561642488619,
+      "attachments": [],
+      "self": true,
+      "isRead": false,
+      "dialog": 1
+    },
+    {
+      "id": "62f0efd059fbe76998aa81de",
+      "user": {},
+      "text": "Enim amet pariatur id adipisicing consequat et ipsum fugiat veniam non culpa labore sint pariatur.",
+      "date": 1245092106806,
+      "attachments": [],
+      "self": false,
+      "isRead": false,
+      "dialog": 1
+    },
+    {
+      "id": "62f0efd0889dd9179f21adb6",
+      "user": {},
+      "text": "Nostrud excepteur aute non irure proident eu.",
+      "date": 1021200198820,
+      "attachments": [],
+      "self": false,
+      "isRead": true,
+      "dialog": 1
+    },
+    {
+      "id": "62f0efd0f5f9d657baf51aa4",
+      "user": {},
+      "text": "Ad labore in consectetur voluptate veniam minim.",
+      "date": 1251764782002,
+      "attachments": [],
+      "self": false,
+      "isRead": true,
+      "dialog": 2
+    },
+    {
+      "id": "62f0efd0278568df83410a88",
+      "user": {},
+      "text": "Amet eu nulla ad adipisicing amet et fugiat.",
+      "date": 878924307841,
+      "attachments": [],
+      "self": true,
+      "isRead": true,
+      "dialog": 1
+    },
+    {
+      "id": "62f0efd01dac2fad2a7cbceb",
+      "user": {},
+      "text": "Elit proident excepteur et consectetur officia fugiat consequat velit commodo ut consequat nulla.",
+      "date": 282048961703,
+      "attachments": [],
+      "self": false,
+      "isRead": false,
+      "dialog": 1
+    },
+    {
+      "id": "62f0efd041ab7c1bb066d32f",
+      "user": {},
+      "text": "Proident incididunt sunt laborum sunt.",
+      "date": 72662936468,
+      "attachments": [],
+      "self": false,
+      "isRead": false,
+      "dialog": 2
+    },
+    {
+      "id": "62f0efd0717004be3ab48890",
+      "user": {},
+      "text": "In enim incididunt qui pariatur nostrud incididunt deserunt aliqua elit laboris consectetur.",
+      "date": 952436095647,
+      "attachments": [],
+      "self": false,
+      "isRead": true,
+      "dialog": 2
+    },
+    {
+      "id": "62f0efd094da21fa9fe73d13",
+      "user": {},
+      "text": "Sit enim officia eiusmod et aliqua voluptate fugiat anim nostrud eiusmod irure.",
+      "date": 254297621100,
+      "attachments": [],
+      "self": false,
+      "isRead": false,
+      "dialog": 3
+    },
+    {
+      "id": "62f0efd0f6385b43dee3f04c",
+      "user": {},
+      "text": "Qui nulla reprehenderit adipisicing nostrud do aute.",
+      "date": 261184143825,
+      "attachments": [],
+      "self": false,
+      "isRead": true,
+      "dialog": 3
+    },
+    {
+      "id": "62f0efd09e2d0f5ed94f7533",
+      "user": {},
+      "text": "Pariatur pariatur do pariatur culpa qui eiusmod aute.",
+      "date": 509175053237,
+      "attachments": [],
+      "self": true,
+      "isRead": false,
+      "dialog": 2
+    },
+    {
+      "id": "62f0efd0fc2f7cc6828256b9",
+      "user": {},
+      "text": "Velit dolore id tempor in anim eu consequat incididunt fugiat veniam.",
+      "date": 1553395282204,
+      "attachments": [],
+      "self": false,
+      "isRead": true,
+      "dialog": 2
+    },
+    {
+      "id": "62f0efd06fcdd0520416d050",
+      "user": {},
+      "text": "Sit dolore minim et consectetur sit occaecat consectetur laborum culpa.",
+      "date": 193989075568,
+      "attachments": [],
+      "self": true,
+      "isRead": true,
+      "dialog": 1
+    },
+    {
+      "id": "62f0efd0d276d90803768dc8",
+      "user": {},
+      "text": "Nostrud nulla quis cillum consectetur dolore Lorem eu deserunt commodo dolore.",
+      "date": 1471317327076,
+      "attachments": [],
+      "self": false,
+      "isRead": true,
+      "dialog": 3
+    },
+    {
+      "id": "62f0efd07dcc45c3c8e23c80",
+      "user": {},
+      "text": "Adipisicing anim sit sint occaecat nulla.",
+      "date": 1431774325001,
+      "attachments": [],
+      "self": false,
+      "isRead": true,
+      "dialog": 1
+    },
+    {
+      "id": "62f0efd062b2e004a17a3bfa",
+      "user": {},
+      "text": "Exercitation ea incididunt deserunt cillum velit duis est Lorem laborum proident fugiat veniam consequat.",
+      "date": 1234059448465,
+      "attachments": [],
+      "self": false,
+      "isRead": true,
+      "dialog": 3
+    },
+    {
+      "id": "62f0efd0ab28da26316304d1",
+      "user": {},
+      "text": "Culpa labore eiusmod voluptate consequat et ipsum exercitation elit consectetur dolor aliqua exercitation.",
+      "date": 1214611283123,
+      "attachments": [],
+      "self": true,
+      "isRead": false,
+      "dialog": 1
+    },
+    {
+      "id": "62f0efd077fb3a82ab7ad9cb",
+      "user": {},
+      "text": "Sit et ipsum labore anim proident commodo cupidatat eu.",
+      "date": 1363084523163,
+      "attachments": [],
+      "self": true,
+      "isRead": true,
+      "dialog": 2
+    },
+    {
+      "id": "62f0efd0c045801ee8213bab",
+      "user": {},
+      "text": "Dolore eu amet irure voluptate sunt enim pariatur incididunt commodo ipsum pariatur adipisicing mollit eu.",
+      "date": 1469102302612,
+      "attachments": [],
+      "self": true,
+      "isRead": true,
+      "dialog": 2
+    },
+    {
+      "id": "62f0efd0b67a6caae0719d16",
+      "user": {},
+      "text": "Reprehenderit mollit consectetur veniam magna et incididunt irure culpa labore.",
+      "date": 1049766544755,
+      "attachments": [],
+      "self": false,
+      "isRead": false,
+      "dialog": 1
+    },
+    {
+      "id": "62f0efd02d9575dce20753bb",
+      "user": {},
+      "text": "Ex eu minim mollit deserunt sunt amet veniam consequat est pariatur et elit adipisicing voluptate.",
+      "date": 1499299135313,
+      "attachments": [],
+      "self": false,
+      "isRead": false,
+      "dialog": 3
+    },
+    {
+      "id": "62f0efd0027c64b917b4dbce",
+      "user": {},
+      "text": "Aliquip sint sint dolore ut nisi veniam.",
+      "date": 14307132639,
+      "attachments": [],
+      "self": false,
+      "isRead": true,
+      "dialog": 1
+    },
+    {
+      "id": "62f0efd0b24cdff3d5e8064f",
+      "user": {},
+      "text": "Excepteur ea eu laborum tempor exercitation enim sit minim in ad.",
+      "date": 171885206415,
+      "attachments": [],
+      "self": false,
+      "isRead": true,
+      "dialog": 2
+    },
+    {
+      "id": "62f0efd0894c06b36581ce7a",
+      "user": {},
+      "text": "Duis laboris aliquip eiusmod pariatur et est voluptate laboris nisi enim pariatur sunt culpa.",
+      "date": 1093258670312,
+      "attachments": [],
+      "self": true,
+      "isRead": true,
+      "dialog": 1
+    },
+    {
+      "id": "62f0efd037837fb854540d32",
+      "user": {},
+      "text": "Consectetur anim commodo irure magna deserunt proident ipsum cupidatat occaecat sunt ut.",
+      "date": 461338628279,
+      "attachments": [],
+      "self": false,
+      "isRead": false,
+      "dialog": 2
+    },
+    {
+      "id": "62f0efd060e16cc96501797a",
+      "user": {},
+      "text": "Ex dolore cupidatat voluptate voluptate dolore ipsum non occaecat pariatur Lorem.",
+      "date": 952135070196,
+      "attachments": [],
+      "self": false,
+      "isRead": true,
+      "dialog": 3
+    },
+    {
+      "id": "62f0efd011f2f897462739df",
+      "user": {},
+      "text": "Ullamco qui et ad sunt Lorem mollit laboris non enim commodo occaecat ex ullamco.",
+      "date": 1403078905673,
+      "attachments": [],
+      "self": false,
+      "isRead": true,
+      "dialog": 1
+    },
+    {
+      "id": "62f0efd07d0340b2508e92fb",
+      "user": {},
+      "text": "Incididunt laborum voluptate laborum duis labore.",
+      "date": 488924468889,
+      "attachments": [],
+      "self": true,
+      "isRead": false,
+      "dialog": 3
+    },
+    {
+      "id": "62f0efd00d37a807afdd9d99",
+      "user": {},
+      "text": "Consectetur veniam non et laborum officia fugiat commodo veniam.",
+      "date": 1652765146889,
+      "attachments": [],
+      "self": false,
+      "isRead": true,
+      "dialog": 2
+    },
+    {
+      "id": "62f0efd09581950bb57526c8",
+      "user": {},
+      "text": "Tempor labore dolor ea exercitation proident.",
+      "date": 1459628376833,
+      "attachments": [],
+      "self": true,
+      "isRead": false,
+      "dialog": 3
+    },
+    {
+      "id": "62f0efd061491c92345ca0a7",
+      "user": {},
+      "text": "Quis minim eu officia ad.",
+      "date": 859022321649,
+      "attachments": [],
+      "self": true,
+      "isRead": true,
+      "dialog": 3
+    },
+    {
+      "id": "62f0efd0400fe705bb2a414e",
+      "user": {},
+      "text": "Non aute mollit cillum labore aliqua proident non anim.",
+      "date": 1467895296436,
+      "attachments": [],
+      "self": false,
+      "isRead": false,
+      "dialog": 2
+    },
+    {
+      "id": "62f0efd00e1bf58d22fb87db",
+      "user": {},
+      "text": "Officia cupidatat aliqua ut qui nostrud anim est minim et duis aute cupidatat.",
+      "date": 1173139305638,
+      "attachments": [],
+      "self": true,
+      "isRead": false,
+      "dialog": 3
+    },
+    {
+      "id": "62f0efd022f217d5d1f028a3",
+      "user": {},
+      "text": "Ipsum sunt fugiat sunt minim.",
+      "date": 175134239962,
+      "attachments": [],
+      "self": true,
+      "isRead": false,
+      "dialog": 2
+    },
+    {
+      "id": "62f0efd098e86d2d3fc8a7a8",
+      "user": {},
+      "text": "Consequat deserunt nulla eiusmod laboris in culpa voluptate reprehenderit cillum fugiat officia nostrud reprehenderit.",
+      "date": 747597113631,
+      "attachments": [],
+      "self": true,
+      "isRead": true,
+      "dialog": 3
+    },
+    {
+      "id": "62f0efd068dea0965bc7ba43",
+      "user": {},
+      "text": "Reprehenderit incididunt veniam elit sint exercitation.",
+      "date": 1300069855767,
+      "attachments": [],
+      "self": false,
+      "isRead": true,
+      "dialog": 3
+    },
+    {
+      "id": "62f0efd09b2ae734f3afc8d8",
+      "user": {},
+      "text": "Laborum esse fugiat ut aliqua sit consequat minim consectetur.",
+      "date": 357114601052,
+      "attachments": [],
+      "self": true,
+      "isRead": false,
+      "dialog": 1
+    }
+  ]
+}
