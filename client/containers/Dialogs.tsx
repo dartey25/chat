@@ -20,7 +20,7 @@ const Dialogs: React.FC<DialogsContainerProps> = ({ userId}) => {
             setFilteredItems(
                 dialogs.filter(
                     dialog =>
-                        dialog.user.username.toLowerCase().indexOf(value.toLowerCase()) >= 0
+                        dialog.author.username.toLowerCase().indexOf(value.toLowerCase()) >= 0
                 )
             );
         } else {

@@ -41,14 +41,14 @@ p {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background-color: #c1c1c1;
+  background-color: #d7d7d7;
   border-radius: .4rem;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   cursor: pointer;
-  background: #afafaf;
+  background: #c1c1c1;
 }
 
 .theme_xbox .pace_activity, .theme_xbox .pace_activity:after, .theme_xbox .pace_activity:before, .theme_xbox_lg .pace_activity, .theme_xbox_lg .pace_activity:after, .theme_xbox_lg .pace_activity:before, .theme_xbox_sm .pace_activity, .theme_xbox_sm .pace_activity:after, .theme_xbox_sm .pace_activity:before {

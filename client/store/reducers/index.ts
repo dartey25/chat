@@ -2,10 +2,12 @@ import {combineReducers} from "redux";
 import {HYDRATE} from 'next-redux-wrapper';
 import dialogsReducer from "./DialogsReducer";
 import messagesReducer from "./MessagesReducer";
+import userReducer from "./UserReducer";
 
 const rootReducer = combineReducers({
     dialogs: dialogsReducer,
-    messages: messagesReducer
+    messages: messagesReducer,
+    user: userReducer
 })
 
 export  const reducer = (state: any, action: any) => {

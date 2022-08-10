@@ -13,31 +13,24 @@ interface MessagesProps {
 }
 
 const Messages: React.FC<MessagesProps> = ({messages, loading, blockRef}) => {
-    // return (<div ref={blockRef} className={loading ? [styles.messages, styles.messages_loading].join(' ') : styles.messages }>
-    //     {loading ? <Loader/>
-    //     :
-    //     (messages.length > 0 ? messages.map(message =>
-    //                 <Message key={message.id} {...message}/>
-    //             ) :
-    //             <Empty description="Повідомлень ще немає..."/>
-    //     )}
-    // </div>);
-    return( <div
-        ref={blockRef}
-        className={loading ? [styles.messages, styles.messages_loading].join(' ') : styles.messages }
-    >
-        {loading ? (
-            <Loader/>
-        ) : messages && !loading ? (
-            messages.length > 0 ? (
-                messages.map(message => <Message key={message.id} {...message} />)
-            ) : (
-                <Empty description="Повідомлень ще немає.." />
-            )
-        ) : (
-            <Empty description="Оберіть діалог" />
-        )}
-    </div>);
+    return (<div
+                ref={blockRef}
+                className={loading ? [styles.messages, styles.messages_loading].join(' ') : styles.messages}
+             >
+                {loading ?
+                    <Loader/>
+                    :
+                    messages.length > 0 ? (
+                        <>
+                            {
+                                messages.map(message => <Message key={message.id} {...message} />)
+                            }
+                            <Message user={{}} typing/>
+                        </>
+                    ) :
+                        <Empty description="Повідомлень ще немає.."/>
+                    }
+            </div>);
 };
 
 export default Messages;

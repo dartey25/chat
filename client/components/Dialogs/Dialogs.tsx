@@ -42,7 +42,7 @@ const Dialogs: React.FC<DialogsProps> = ({
                             return <DialogItem
                                 key={index}
                                 id={dialog.id}
-                                user={dialog.user}
+                                partner={dialog.author}
                                 message={dialog.message}
                                 unread={dialog.unread}
                                 self={/*dialog.message.senderID === userID*/ Math.floor(Math.random() * (1 - 0 + 1)) === 1}

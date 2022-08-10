@@ -8,7 +8,7 @@ import {useTypedSelector} from "../../hooks/useTypedSelector";
 
 interface DialogItemProps {
     id: number;
-    user: any;
+    partner: any;
     message: any;
     unread: number;
     self: boolean;
@@ -17,15 +17,15 @@ interface DialogItemProps {
 
 
 
-const DialogItem: React.FC<DialogItemProps> = ({id, user, message, unread, self, onSelect}) => {
+const DialogItem: React.FC<DialogItemProps> = ({id, partner, message, unread, self, onSelect}) => {
     const {currentDialogId} = useTypedSelector(state => state.dialogs)
     return (
         <div onClick={onSelect.bind(this, id)} className={id === currentDialogId ? [styles.dialogs__item, styles.dialogs__item_active].join(' ') : styles.dialogs__item}>
-            <Avatar avatar={user.avatar} online={user.online}/>
+            <Avatar avatar={partner.avatar} online={partner.online}/>
             <div className={styles.dialogs__item_info}>
                 <div className={styles.dialogs__item_info_top}>
                     <span className={styles.dialogs__item_info_top__username}>
-                        {user.username}
+                        {partner.username}
                     </span>
                     <span className={styles.dialogs__item_info_top__date}>
                         <Time date={message.date} short/>
@@ -33,7 +33,7 @@ const DialogItem: React.FC<DialogItemProps> = ({id, user, message, unread, self,
                 </div>
                 <div className={styles.dialogs__item_info_bottom}>
                     <p>
-                        {message.text}
+                        {message.text ? message.text : 'Повідомленнь ще немає..'}
                     </p>
                     {self && <IconRead self={true} isRead={message.read} stylesRead={styles.dialogs__item_read} stylesDelivered={styles.dialogs__item_delivered}/>}
                     {unread > 0 && !self && <span className={[styles.dialogs__item_unread, 'badge badge-pill'].join(' ')}>

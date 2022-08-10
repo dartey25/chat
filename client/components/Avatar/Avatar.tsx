@@ -2,11 +2,11 @@ import React, {ReactElement} from 'react';
 import styles from "./Avatar.module.scss";
 
 interface AvatarProps{
-    avatar: string;
+    avatar?: string;
     online?: boolean;
 }
 
-const getAvatar = (avatar: string): ReactElement => {
+const getAvatar = (avatar?: string): ReactElement => {
     if (avatar) {
         return (<img src={`${avatar}`} alt="avatar" draggable="false"/>);
     } else {
@@ -16,6 +16,7 @@ const getAvatar = (avatar: string): ReactElement => {
 }
 
 const Avatar:React.FC<AvatarProps> = ({avatar,online}) => {
+    console.log(online)
     return (
         <div className={online ? [styles.avatar, styles.online].join(' ') : styles.avatar}>
             {getAvatar(avatar)}

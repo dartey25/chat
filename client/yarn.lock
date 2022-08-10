@@ -56,6 +56,16 @@
   resolved "https://registry.yarnpkg.com/@ctrl/tinycolor/-/tinycolor-3.4.1.tgz#75b4c27948c81e88ccd3a8902047bcd797f38d32"
   integrity sha512-ej5oVy6lykXsvieQtqZxCOaLT+xD4+QNarq78cIYISHmZXshCvROLudpQN3lfL8G0NL7plMSSK+zlyvCaIJ4Iw==
 
+"@emoji-mart/data@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@emoji-mart/data/-/data-1.0.3.tgz#a216a9a8cead038b756d2b882e1c9da0f7777e8a"
+  integrity sha512-SwxtfLOPiis9iXwWLjZHpUIUwYV/ghfBG6jpVP2HZgCt/dE8Q4r1RQg1Y5TyYBYKk8N5RKuLWJi1DNrEUIWj+A==
+
+"@emoji-mart/react@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@emoji-mart/react/-/react-1.0.0.tgz#485ffef5c34f0cde04ecb2820f150a483744346e"
+  integrity sha512-pRZ+e0uWJKVpUBcALevyjnp14HUFG/7p+XsUqNAkz322ruPzyDQ7/qUNONU0KGjQF71O4OIoFdvDPcxVpx1/xg==
+
 "@eslint/eslintrc@^1.3.0":
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/@eslint/eslintrc/-/eslintrc-1.3.0.tgz#29f92c30bb3e771e4a2048c95fa6855392dfac4f"
@@ -964,6 +974,11 @@ electron-to-chromium@^1.4.202:
   version "1.4.211"
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.211.tgz#afaa8b58313807501312d598d99b953568d60f91"
   integrity sha512-BZSbMpyFQU0KBJ1JG26XGeFI3i4op+qOYGxftmZXFZoHkhLgsSv4DHDJfl8ogII3hIuzGt51PaZ195OVu0yJ9A==
+
+emoji-mart@^5.2.0:
+  version "5.2.0"
+  resolved "https://registry.yarnpkg.com/emoji-mart/-/emoji-mart-5.2.0.tgz#e6e30df81f75c6c5150f77a7c6714e05c3798e45"
+  integrity sha512-0ZTIbemlRjEV0ydF8lDqho2N5l4M7qdNFWGp+w3v32D+F6+DYsmuaZr/k4O79EBvqlDx6rx+B8jeaH2qa0ZNDQ==
 
 emoji-regex@^9.2.2:
   version "9.2.2"

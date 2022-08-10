@@ -4,12 +4,22 @@
   position: relative;
   top: -10px;
 
-  &__upload_btn {
+  &__emoji {
+    color: grey;
     margin-right: 15px;
+    font-size: 25px;
+    cursor: pointer;
 
     i.anticon {
       margin-top: 11px;
     }
+    &_picker{
+      position: absolute;
+      bottom: 50px;
+      z-index: 1;
+      box-shadow: 5px 5px 10px #bfbfbf;
+    }
+
   }
 
   //.ant-btn-circle {
@@ -22,7 +32,7 @@
   &__actions {
     display: flex;
     align-items: center;
-    width: 40px;
+    width: 90px;
     justify-content: space-between;
     margin-left: 15px;
   }
