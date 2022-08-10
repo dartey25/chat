@@ -2,14 +2,20 @@
   "dialogs": [
     {
       "id": 777,
-      "user": {
-        "id": 777,
-        "username": "MD Office Support",
+      "author": {
+        "id": "777",
         "avatar": "https://www.mdoffice.com.ua/images/og_image.jpg",
+        "username": "MD Office Support",
         "online": true
       },
+      "partner": {
+        "id": 0,
+        "avatar": "",
+        "username": "ea elit",
+        "online": false
+      },
       "message": {
-        "text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page e",
+        "text": null,
         "read": false,
         "date": 1659994086729
       },
@@ -17,11 +23,17 @@
     },
     {
       "id": 1,
-      "user": {
-        "id": 1,
+      "author": {
+        "id": "1",
+        "avatar": "https://i.pravatar.cc/150/?img=37",
         "username": "Amanda Bellon",
-        "avatar": "https://i.pravatar.cc/150?img=37",
         "online": true
+      },
+      "partner": {
+        "id": 0,
+        "avatar": "",
+        "username": "ea elit",
+        "online": false
       },
       "message": {
         "text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page e",
@@ -32,11 +44,17 @@
     },
     {
       "id": 2,
-      "user": {
-        "id": 2,
-        "username": "YellowSnowman",
+      "author": {
+        "id": "2",
         "avatar": "https://i.pravatar.cc/150/?img=52",
+        "username": "YellowSnowman",
         "online": true
+      },
+      "partner": {
+        "id": 0,
+        "avatar": "",
+        "username": "ea elit",
+        "online": false
       },
       "message": {
         "text": "You need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.",
@@ -48,10 +66,16 @@
     },
     {
       "id": 3,
-      "user": {
-        "id": 3,
+      "author": {
+        "id": "3",
+        "avatar": "https://i.pravatar.cc/150/?img=44",
         "username": "BenAfleckIsAnOkActor",
-        "avatar": "https://i.pravatar.cc/150?img=70",
+        "online": false
+      },
+      "partner": {
+        "id": 0,
+        "avatar": "",
+        "username": "ea elit",
         "online": false
       },
       "message": {
@@ -62,169 +86,487 @@
       "unread": 0
     },
     {
-      "id": 4,
-      "user": {
-        "id": 11,
-        "username": "Venom Fate",
-        "avatar": "https://i.pravatar.cc/150?img=2",
+      "id": "62f2213c1aa716a4cc5d208d",
+      "author": {
+        "id": "62f2213c117004b8313f4db8",
+        "avatar": "https://i.pravatar.cc/150/?img=1",
+        "username": "Antonio",
         "online": true
       },
-      "message": {
-        "text": "Ullamco id adipisicing reprehenderit incididunt sunt minim ullamco officia proident ea culpa est fugiat.",
-        "read": false,
-        "date": 914749171433
-      },
-      "unread": 1
-    },
-    {
-      "id": 5,
-      "user": {
-        "id": 53,
-        "username": "DarkCarnage",
-        "avatar": "https://i.pravatar.cc/150?img=22",
-        "online": true
-      },
-      "message": {
-        "text": "Eiusmod deserunt dolore incididunt nisi cupidatat commodo ex minim voluptate sunt nostrud cillum.",
-        "read": true,
-        "date": 1002468428337
-      },
-      "unread": 3
-    },
-    {
-      "id": 13,
-      "user": {
-        "id": 95,
-        "username": "Masked Titan",
-        "avatar": "https://i.pravatar.cc/150?img=49",
+      "partner": {
+        "id": 0,
+        "avatar": "",
+        "username": "tempor non",
         "online": false
       },
       "message": {
-        "text": "Minim nisi aliqua enim consectetur magna ea.",
-        "read": false,
-        "date": 795339622607
+        "text": null,
+        "date": 829137550878
       },
-      "unread": 1
+      "attachments": [],
+      "self": true,
+      "isRead": false,
+      "dialog": 2
     },
     {
-      "id": 8,
-      "user": {
-        "id": 44,
-        "username": "Venom Fate",
-        "avatar": "https://i.pravatar.cc/150?img=16",
-        "online": true
+      "id": "62f2213ceda4209c8556eed7",
+      "author": {
+        "id": "62f2213cd422981c81c2a096",
+        "avatar": "https://i.pravatar.cc/150/?img=15",
+        "username": "David",
+        "online": false
       },
-      "message": {
-        "text": "Aliquip anim adipisicing ullamco consectetur deserunt consequat excepteur.",
-        "read": true,
-        "date": 1604555536908
-      },
-      "unread": 3
-    },
-    {
-      "id": 5,
-      "user": {
-        "id": 86,
-        "username": "CrashTV",
-        "avatar": "https://i.pravatar.cc/150?img=13",
+      "partner": {
+        "id": 0,
+        "avatar": "",
+        "username": "minim dolor",
         "online": false
       },
       "message": {
-        "text": "Voluptate ut elit quis Lorem.",
-        "read": false,
-        "date": 130887671234
+        "text": null,
+        "date": 1602140791918
       },
-      "unread": 3
+      "attachments": [],
+      "self": true,
+      "isRead": false,
+      "dialog": 3
     },
     {
-      "id": 14,
-      "user": {
-        "id": 72,
-        "username": "IronMerc",
-        "avatar": "https://i.pravatar.cc/150?img=5",
+      "id": "62f2213ceac1011bc4e28422",
+      "author": {
+        "id": "62f2213cb50233f247ad448b",
+        "avatar": "https://i.pravatar.cc/150/?img=12",
+        "username": "Antonio",
+        "online": false
+      },
+      "partner": {
+        "id": 0,
+        "avatar": "",
+        "username": "ea sint",
+        "online": true
+      },
+      "message": {
+        "text": null,
+        "date": 836096700436
+      },
+      "attachments": [],
+      "self": true,
+      "isRead": true,
+      "dialog": 1
+    },
+    {
+      "id": "62f2213c55feafa2ec1e0aff",
+      "author": {
+        "id": "62f2213cffb16ec49d85aea1",
+        "avatar": "https://i.pravatar.cc/150/?img=58",
+        "username": "Antonio",
+        "online": true
+      },
+      "partner": {
+        "id": 0,
+        "avatar": "",
+        "username": "est do",
+        "online": true
+      },
+      "message": {
+        "text": null,
+        "date": 38412294819
+      },
+      "attachments": [],
+      "self": false,
+      "isRead": true,
+      "dialog": 1
+    },
+    {
+      "id": "62f2213c7d91fb2fcb7140e4",
+      "author": {
+        "id": "62f2213c6ada8bf0fabf5cd4",
+        "avatar": "https://i.pravatar.cc/150/?img=19",
+        "username": "Daniel",
+        "online": false
+      },
+      "partner": {
+        "id": 0,
+        "avatar": "",
+        "username": "nostrud labore",
+        "online": true
+      },
+      "message": {
+        "text": null,
+        "date": 1547137840487
+      },
+      "attachments": [],
+      "self": false,
+      "isRead": false,
+      "dialog": 3
+    },
+    {
+      "id": "62f2213cf9b0becb94275650",
+      "author": {
+        "id": "62f2213c8eec144065526e98",
+        "avatar": "https://i.pravatar.cc/150/?img=8",
+        "username": "Daniel",
+        "online": true
+      },
+      "partner": {
+        "id": 0,
+        "avatar": "",
+        "username": "sint elit",
         "online": false
       },
       "message": {
-        "text": "Eu Lorem nulla et Lorem amet elit ipsum anim ullamco labore officia voluptate incididunt.",
-        "read": true,
-        "date": 1576331781717
+        "text": null,
+        "date": 1168029108169
       },
-      "unread": 0
+      "attachments": [],
+      "self": false,
+      "isRead": false,
+      "dialog": 2
     },
     {
-      "id": 15,
-      "user": {
-        "id": 6,
-        "username": "IronMerc",
-        "avatar": "https://i.pravatar.cc/150?img=50",
-        "online": true
+      "id": "62f2213c3363a4b8ea01174e",
+      "author": {
+        "id": "62f2213cb83835df885f9226",
+        "avatar": "https://i.pravatar.cc/150/?img=48",
+        "username": "Andrea",
+        "online": false
       },
-      "message": {
-        "text": "Ipsum id dolor excepteur officia ut qui fugiat minim consectetur ipsum labore velit irure.",
-        "read": false,
-        "date": 1529157760745
-      },
-      "unread": 0
-    },
-    {
-      "id": 4,
-      "user": {
-        "id": 27,
-        "username": "Masked Titan",
-        "avatar": "https://i.pravatar.cc/150?img=36",
-        "online": true
-      },
-      "message": {
-        "text": "Minim esse laboris deserunt fugiat ad proident elit Lorem proident aliquip.",
-        "read": true,
-        "date": 1149265394080
-      },
-      "unread": 4
-    },
-    {
-      "id": 12,
-      "user": {
-        "id": 34,
-        "username": "IronMerc",
-        "avatar": "https://i.pravatar.cc/150?img=26",
-        "online": true
-      },
-      "message": {
-        "text": "Ad ex culpa ex labore irure.",
-        "read": false,
-        "date": 35440016031
-      },
-      "unread": 3
-    },
-    {
-      "id": 7,
-      "user": {
-        "id": 39,
-        "username": "TurboSlayer",
-        "avatar": "https://i.pravatar.cc/150?img=39",
-        "online": true
-      },
-      "message": {
-        "text": "Ut culpa nostrud aliquip proident laborum mollit officia incididunt ad.",
-        "read": true,
-        "date": 215385679551
-      },
-      "unread": 2
-    },
-    {
-      "id": 4,
-      "user": {
-        "id": 44,
-        "username": "StealthedDefender",
-        "avatar": "https://i.pravatar.cc/150?img=10",
+      "partner": {
+        "id": 0,
+        "avatar": "",
+        "username": "nisi commodo",
         "online": false
       },
       "message": {
-        "text": "Est dolore laborum exercitation est aliqua labore est occaecat anim minim.",
-        "read": false,
-        "date": 463603139577
+        "text": null,
+        "date": 148662319911
       },
-      "unread": 2
+      "attachments": [],
+      "self": true,
+      "isRead": true,
+      "dialog": 1
+    },
+    {
+      "id": "62f2213c008161640bb04485",
+      "author": {
+        "id": "62f2213ccb775d370cf4a4b4",
+        "avatar": "https://i.pravatar.cc/150/?img=23",
+        "username": "Ali",
+        "online": true
+      },
+      "partner": {
+        "id": 0,
+        "avatar": "",
+        "username": "laboris ea",
+        "online": false
+      },
+      "message": {
+        "text": null,
+        "date": 192883695585
+      },
+      "attachments": [],
+      "self": false,
+      "isRead": false,
+      "dialog": 2
+    },
+    {
+      "id": "62f2213c67e9d11cc9b0a0d3",
+      "author": {
+        "id": "62f2213c1ed043f5e7f0afd3",
+        "avatar": "https://i.pravatar.cc/150/?img=56",
+        "username": "Andrea",
+        "online": true
+      },
+      "partner": {
+        "id": 0,
+        "avatar": "",
+        "username": "non elit",
+        "online": true
+      },
+      "message": {
+        "text": null,
+        "date": 1066331081554
+      },
+      "attachments": [],
+      "self": true,
+      "isRead": false,
+      "dialog": 3
+    },
+    {
+      "id": "62f2213c192199319c450bb4",
+      "author": {
+        "id": "62f2213cc1a3b7af23eb59ac",
+        "avatar": "https://i.pravatar.cc/150/?img=34",
+        "username": "David",
+        "online": true
+      },
+      "partner": {
+        "id": 0,
+        "avatar": "",
+        "username": "officia tempor",
+        "online": true
+      },
+      "message": {
+        "text": null,
+        "date": 971141650818
+      },
+      "attachments": [],
+      "self": false,
+      "isRead": true,
+      "dialog": 1
+    },
+    {
+      "id": "62f2213c182515d2b7d4df68",
+      "author": {
+        "id": "62f2213c46ef9c48ce033345",
+        "avatar": "https://i.pravatar.cc/150/?img=41",
+        "username": "David",
+        "online": true
+      },
+      "partner": {
+        "id": 0,
+        "avatar": "",
+        "username": "quis ut",
+        "online": false
+      },
+      "message": {
+        "text": null,
+        "date": 1307577032860
+      },
+      "attachments": [],
+      "self": true,
+      "isRead": false,
+      "dialog": 1
+    },
+    {
+      "id": "62f2213ca7ee23097e35e9f3",
+      "author": {
+        "id": "62f2213c7e104e69b763937e",
+        "avatar": "https://i.pravatar.cc/150/?img=13",
+        "username": "Anna",
+        "online": true
+      },
+      "partner": {
+        "id": 0,
+        "avatar": "",
+        "username": "irure enim",
+        "online": false
+      },
+      "message": {
+        "text": null,
+        "date": 1056147276476
+      },
+      "attachments": [],
+      "self": true,
+      "isRead": true,
+      "dialog": 1
+    },
+    {
+      "id": "62f2213cdddb7383fc2a593c",
+      "author": {
+        "id": "62f2213c50b647399027be41",
+        "avatar": "https://i.pravatar.cc/150/?img=60",
+        "username": "Anna",
+        "online": false
+      },
+      "partner": {
+        "id": 0,
+        "avatar": "",
+        "username": "ea commodo",
+        "online": true
+      },
+      "message": {
+        "text": null,
+        "date": 318060236778
+      },
+      "attachments": [],
+      "self": true,
+      "isRead": true,
+      "dialog": 3
+    },
+    {
+      "id": "62f2213c49824e10f33b4a80",
+      "author": {
+        "id": "62f2213c88db9a8e30133d34",
+        "avatar": "https://i.pravatar.cc/150/?img=55",
+        "username": "David",
+        "online": false
+      },
+      "partner": {
+        "id": 0,
+        "avatar": "",
+        "username": "irure nisi",
+        "online": false
+      },
+      "message": {
+        "text": null,
+        "date": 1184164523838
+      },
+      "attachments": [],
+      "self": true,
+      "isRead": false,
+      "dialog": 3
+    },
+    {
+      "id": "62f2213ca96ba8d0f143540b",
+      "author": {
+        "id": "62f2213c298774af7eaecf03",
+        "avatar": "https://i.pravatar.cc/150/?img=1",
+        "username": "Ali",
+        "online": false
+      },
+      "partner": {
+        "id": 0,
+        "avatar": "",
+        "username": "sunt aliquip",
+        "online": true
+      },
+      "message": {
+        "text": null,
+        "date": 725881391753
+      },
+      "attachments": [],
+      "self": true,
+      "isRead": false,
+      "dialog": 2
+    },
+    {
+      "id": "62f2213cf9920a110d69b60b",
+      "author": {
+        "id": "62f2213c45e8a9f647f367ec",
+        "avatar": "https://i.pravatar.cc/150/?img=24",
+        "username": "Maria",
+        "online": false
+      },
+      "partner": {
+        "id": 0,
+        "avatar": "",
+        "username": "labore nulla",
+        "online": true
+      },
+      "message": {
+        "text": null,
+        "date": 1238110696732
+      },
+      "attachments": [],
+      "self": false,
+      "isRead": false,
+      "dialog": 1
+    },
+    {
+      "id": "62f2213c5d70cce0f76553b6",
+      "author": {
+        "id": "62f2213c7757da3ac0d60468",
+        "avatar": "https://i.pravatar.cc/150/?img=5",
+        "username": "Marco",
+        "online": false
+      },
+      "partner": {
+        "id": 0,
+        "avatar": "",
+        "username": "dolor consequat",
+        "online": false
+      },
+      "message": {
+        "text": null,
+        "date": 610942652036
+      },
+      "attachments": [],
+      "self": false,
+      "isRead": false,
+      "dialog": 2
+    },
+    {
+      "id": "62f2213c6d7259311a3f4007",
+      "author": {
+        "id": "62f2213c1d94db6c37edf366",
+        "avatar": "https://i.pravatar.cc/150/?img=42",
+        "username": "David",
+        "online": true
+      },
+      "partner": {
+        "id": 0,
+        "avatar": "",
+        "username": "est minim",
+        "online": false
+      },
+      "message": {
+        "text": null,
+        "date": 987854900295
+      },
+      "attachments": [],
+      "self": true,
+      "isRead": true,
+      "dialog": 3
+    },
+    {
+      "id": "62f2213cbc96dae833200491",
+      "author": {
+        "id": "62f2213c1c6832271a3ef208",
+        "avatar": "https://i.pravatar.cc/150/?img=19",
+        "username": "David",
+        "online": false
+      },
+      "partner": {
+        "id": 0,
+        "avatar": "",
+        "username": "dolor adipisicing",
+        "online": false
+      },
+      "message": {
+        "text": null,
+        "date": 765712466689
+      },
+      "attachments": [],
+      "self": false,
+      "isRead": false,
+      "dialog": 2
+    },
+    {
+      "id": "62f2213c9cbeb617a2955f52",
+      "author": {
+        "id": "62f2213c6d030376fd2806d3",
+        "avatar": "https://i.pravatar.cc/150/?img=47",
+        "username": "Alex",
+        "online": false
+      },
+      "partner": {
+        "id": 0,
+        "avatar": "",
+        "username": "nulla velit",
+        "online": true
+      },
+      "message": {
+        "text": null,
+        "date": 1269358765153
+      },
+      "attachments": [],
+      "self": false,
+      "isRead": true,
+      "dialog": 2
+    },
+    {
+      "id": "62f2213c65a166c3c5a11b56",
+      "author": {
+        "id": "62f2213cf2963b0e07fd36c6",
+        "avatar": "https://i.pravatar.cc/150/?img=12",
+        "username": "Daniel",
+        "online": true
+      },
+      "partner": {
+        "id": 0,
+        "avatar": "",
+        "username": "tempor amet",
+        "online": true
+      },
+      "message": {
+        "text": null,
+        "date": 339008805783
+      },
+      "attachments": [],
+      "self": false,
+      "isRead": false,
+      "dialog": 2
     }
   ],
   "messages": [
@@ -512,7 +854,7 @@
       "id": "62f0efd00d37a807afdd9d99",
       "user": {},
       "text": "Consectetur veniam non et laborum officia fugiat commodo veniam.",
-      "date": 1652765146889,
+      "date": 1659965193757,
       "attachments": [],
       "self": false,
       "isRead": true,
@@ -542,8 +884,24 @@
       "id": "62f0efd0400fe705bb2a414e",
       "user": {},
       "text": "Non aute mollit cillum labore aliqua proident non anim.",
-      "date": 1467895296436,
-      "attachments": [],
+      "date": 1659994086729,
+      "attachments": [
+        {
+          "id": 1,
+          "filename": "image.jpg",
+          "url": "https://source.unsplash.com/100x100/?random=1&nature,water"
+        },
+        {
+          "id": 2,
+          "filename": "image.jpg",
+          "url": "https://source.unsplash.com/100x100/?random=2&nature,water"
+        },
+        {
+          "id": 3,
+          "filename": "image.jpg",
+          "url": "https://source.unsplash.com/100x100/?random=3&nature,water"
+        }
+      ],
       "self": false,
       "isRead": false,
       "dialog": 2
@@ -562,7 +920,7 @@
       "id": "62f0efd022f217d5d1f028a3",
       "user": {},
       "text": "Ipsum sunt fugiat sunt minim.",
-      "date": 175134239962,
+      "date": 1660038184516,
       "attachments": [],
       "self": true,
       "isRead": false,
